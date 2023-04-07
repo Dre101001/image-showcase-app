@@ -1,0 +1,126 @@
+.overlay {
+  position: fixed;
+  inset: 0 0 0 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logout-modal {
+  .modal {
+    background: #323232;
+    color: var(--c);
+    padding: 2rem 4rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    .actions {
+      display: flex;
+      // justify-content: space-between;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
+
+      button {
+        width: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: var(--c);
+      }
+    }
+  }
+}
+
+.error-modal {
+  .modal {
+    background: #323232;
+    color: var(--c);
+    padding: 2rem 4rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    .actions {
+      display: flex;
+      // justify-content: space-between;
+      justify-content: flex-end;
+      align-items: center;
+      gap: 1rem;
+
+      button {
+        width: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: var(--c);
+      }
+    }
+  }
+}
+
+.nouser-modal {
+  .modal {
+    background: #323232;
+    color: var(--c);
+    padding: 2rem 4rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    .actions {
+      display: flex;
+      // justify-content: space-between;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
+
+      button {
+        width: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: var(--c);
+      }
+    }
+  }
+}
+
+.info-modal {
+  position: fixed;
+  top: 20px;
+  background: #323232;
+  color: var(--c);
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+
+  .actions {
+    display: flex;
+    // justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+    span {
+      width: 20px;
+      color: var(--c);
+      border: none;
+      background: transparent;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+
+      svg {
+        color: var(--c);
+      }
+    }
+  }
+}
